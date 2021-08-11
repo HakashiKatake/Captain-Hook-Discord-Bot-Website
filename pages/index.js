@@ -10,6 +10,10 @@ export default function Home() {
         <title>Captain Hook - A fun Discord Bot</title>
       <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
       <meta name="description" content="A cool discord bot for fun, memes, calculator, games, info, economy, utility, image and many more." />
+      <meta
+          property="og:image"
+          content={`/assets/logo.png`}
+        />
       </Head>
       <header className={styles.header}>
         <h1 className={styles.title}>Captain Hook - Fun Discord Bot</h1>
