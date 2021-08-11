@@ -24,9 +24,9 @@ export default function Home() {
           A cool discord bot for fun, memes, calculator, games, info, economy, utility, image and many more. <code>$help cmd</code> for commands<br/><br/>
           One should give it a try to invite <b>Captain Hook</b> to your server.
         <ul>
-          <li><a href="https://discord.com/api/oauth2/authorize?client_id=756715507306201130&permissions=8&scope=bot" target="_blank" rel="noreferrer">It's <b>Captain Hook 🏴‍☠️</b> invite me now</a></li>
+          <li><a href="https://discord.com/api/oauth2/authorize?client_id=756715507306201130&permissions=8&scope=bot" target="_blank" rel="noopener noreferrer">It's <b>Captain Hook 🏴‍☠️</b> invite me now</a></li>
           <br/>
-          <li><a href="https://discord.gg/9Ef8fq5sTA" target="_blank" rel="noreferrer">Join our <b>Support</b> server</a></li>
+          <li><a href="https://discord.gg/9Ef8fq5sTA" target="_blank" rel="noopener noreferrer">Join our <b>Support</b> server</a></li>
         </ul>
 
         {/* <Link href="/commands">
