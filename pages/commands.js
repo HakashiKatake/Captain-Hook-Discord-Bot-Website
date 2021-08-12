@@ -26,7 +26,7 @@ export default function Command() {
         />
         {/* https://discord.com/api/oauth2/authorize?client_id=756715507306201130&permissions=8&scope=bot */}
         <p className={styles.desc}>
-          It's <b>Captain Hook</b> here. I am here to help you with commands. You can find my characteristics below: 
+          It&apos;s <b>Captain Hook</b> here. I am here to help you with commands. You can find my characteristics below: 
         <ul>
           <li>You can provoke me with <b><code>$</code>(Dollar Sign)</b></li>
           <br/>
