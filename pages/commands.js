@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
-export default function Home() {
+export default function Command() {
   return (
     <div className={styles.container}>
       <Head>
@@ -26,14 +26,19 @@ export default function Home() {
         />
         {/* https://discord.com/api/oauth2/authorize?client_id=756715507306201130&permissions=8&scope=bot */}
         <p className={styles.desc}>
-          A cool discord bot for fun, memes, calculator, games, info, economy, utility, image and many more. <code>$help cmd</code> for commands<br/><br/>
-          One should give it a try to invite <b>Captain Hook</b> to your server.
+          It's <b>Captain Hook</b> here. I am here to help you with commands. You can find my characteristics below: 
         <ul>
-          <li><a href="https://discord.com/api/oauth2/authorize?client_id=756715507306201130&permissions=8&scope=bot" target="_blank" rel="noopener noreferrer">Its <b>Captain Hook 🏴‍☠️</b> invite me now</a></li>
+          <li>You can provoke me with <b><code>$</code>(Dollar Sign)</b></li>
           <br/>
-          <li><a href="https://discord.gg/9Ef8fq5sTA" target="_blank" rel="noopener noreferrer">Join our <b>Support</b> server</a></li><br/>
-          <li><Link href="/commands">
-          <a className="command"><b>Commands</b> List &rarr;</a>
+          <li>I am here to have fun on your <b>Discord</b> Server</li><br/>
+          <Image
+          src="/assets/cmd.png"
+          width="300"
+          height="300"
+
+          /><br/><br/>
+          <li><Link href="/">
+          <a className="command">Back <b>Home</b>&rarr;</a>
         </Link></li>
         </ul>
 
